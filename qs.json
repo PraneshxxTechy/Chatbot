@@ -1,0 +1,15 @@
+{"intents":
+[
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","What's up"],
+  "responses": ["Hello","Hey!","How can I help You?"]},
+  {"tag": "End of convo",
+  "patterns": ["Bye","Goodbye","See ya","See u later","It's time to leave","I am leaving"],
+  "responses": ["Talk to you later","Goodbye","Will meet later"]},
+  {"tag": "Service",
+  "patterns": ["What kind of service u provide?","Role","What do u do"],
+  "responses": ["I provide info for ur queries","I will assist you with the info"]},
+  {"tag": "name",
+  "patterns": ["What is ur name","How can call u"],
+  "responses": ["I am Chator","My name is Chator","You can call me Chator"]}
+]}
