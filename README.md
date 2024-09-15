@@ -36,17 +36,10 @@ Before you begin, ensure you have met the following requirements:
 - TensorFlow or Keras
 - NLTK (Natural Language Toolkit)
 - NumPy
-- Flask (if you are deploying the chatbot as a web application)
 
 ### Setup Instructions
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/PraneshxxTechy/your-repo-name.git
-    cd your-repo-name
-    ```
-
-2. **Install dependencies**:
+1. **Install dependencies**:
     Make sure you have a virtual environment set up, then install the necessary libraries:
     ```bash
     pip install -r requirements.txt
@@ -57,7 +50,7 @@ Before you begin, ensure you have met the following requirements:
     pip install tensorflow keras nltk numpy flask
     ```
 
-3. **Download NLTK corpus**:
+2. **Download NLTK corpus**:
     The bot requires NLTK’s `punkt` tokenizer. Run this in Python:
     ```python
     import nltk
